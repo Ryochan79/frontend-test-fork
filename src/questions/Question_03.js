@@ -26,7 +26,9 @@ export default function Question_03() {
       <h1 className='question-title'>【問３】コンポーネント呼出し</h1>
       <div className='question-content'>
       {/* ↓↓↓ コンポーネント呼び出しを書く ↓↓↓ */}
-
+      <script>
+        import Footer from 'Question_03_Component.js'
+      </script>
       {/* ↑↑↑ コンポーネント呼び出しを書く ↑↑↑ */}
       </div>
       <h1 className='question-title'>期待結果 (画像)</h1>

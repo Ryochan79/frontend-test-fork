@@ -25,6 +25,12 @@ export default function Question_04() {
       <div className='question-content'>
       {/* ↓↓↓ イベントリスナの設定を書く ↓↓↓ */}
         <button>押してね</button>
+        <script>
+        let elem = document.getElementById('elem');
+        elem.addEventListener('click', () => {
+          console.log('Clicked'); 
+        });
+       </script>
       {/* ↑↑↑ イベントリスナの設定を書く ↑↑↑ */}
       </div>
       <h1 className='question-title'>期待結果 (画像)</h1>
